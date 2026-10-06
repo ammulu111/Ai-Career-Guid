@@ -1,0 +1,77 @@
+.profile-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: #f5f8ff;
+}
+
+.profile-box {
+  width: 600px;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.profile-box h1 {
+  text-align: center;
+  color: #172554;
+  margin-bottom: 10px;
+}
+
+.profile-box > p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.profile-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-box label {
+  margin-bottom: 7px;
+  color: #333;
+  font-weight: bold;
+}
+
+.profile-box input,
+.profile-box select {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  background: white;
+  color: #222;
+}
+
+.profile-box input::placeholder {
+  color: #888;
+}
+
+.profile-box input:focus,
+.profile-box select:focus {
+  outline: none;
+  border-color: #2563eb;
+  color: #222;
+}
+
+.profile-box button {
+  padding: 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile-box button:hover {
+  background: #1d4ed8;
+}

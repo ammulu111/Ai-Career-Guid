@@ -1,0 +1,132 @@
+.jobs-page {
+  min-height: 100vh;
+  padding: 50px 20px;
+  background: #f5f8ff;
+}
+
+.jobs-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Main Heading */
+
+.jobs-container h1 {
+  text-align: center;
+  color: #172554;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* Profile Information */
+
+.job-profile {
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.job-profile h2 {
+  color: #2563eb;
+  margin-bottom: 18px;
+}
+
+.job-profile p {
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Introduction */
+
+.jobs-intro {
+  text-align: center;
+  color: #666;
+  font-size: 17px;
+  margin-bottom: 35px;
+}
+
+/* Job Cards */
+
+.job-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.job-card {
+  width: 300px;
+  padding: 28px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.job-card h2 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.job-card h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.job-card p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+/* Match Score */
+
+.job-score {
+  display: inline-block;
+  margin: 10px 0 20px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #e8f0ff;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+/* Button */
+
+.job-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.job-card button:hover {
+  background: #1d4ed8;
+}
+
+/* Hover Effect */
+
+.job-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .jobs-container h1 {
+    font-size: 30px;
+  }
+
+  .job-card {
+    width: 100%;
+    max-width: 350px;
+  }
+}

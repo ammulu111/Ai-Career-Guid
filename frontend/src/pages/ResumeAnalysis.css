@@ -1,0 +1,193 @@
+.resume-page {
+  min-height: 100vh;
+  padding: 50px 20px;
+  background: #f5f8ff;
+}
+
+.resume-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.resume-container h1 {
+  text-align: center;
+  color: #172554;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.resume-intro {
+  text-align: center;
+  color: #666;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+
+/* Upload Box */
+
+.upload-box {
+  padding: 35px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.upload-box h2 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.upload-box p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.upload-box input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.file-name {
+  color: #2563eb !important;
+  font-weight: bold;
+}
+
+.upload-box button {
+  padding: 13px 25px;
+  border: none;
+  border-radius: 7px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.upload-box button:hover {
+  background: #1d4ed8;
+}
+
+
+/* Analysis */
+
+.analysis-section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.analysis-section > h2 {
+  text-align: center;
+  color: #172554;
+}
+
+
+/* Match */
+
+.match-box {
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.match-box h3 {
+  color: #172554;
+  margin-bottom: 15px;
+}
+
+.match-score {
+  font-size: 45px;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.match-box p {
+  color: #666;
+}
+
+
+/* Skills */
+
+.analysis-box {
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.analysis-box h3 {
+  color: #172554;
+  margin-bottom: 20px;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.matching-skill {
+  padding: 10px 16px;
+  border-radius: 20px;
+  background: #e8f5e9;
+  color: #166534;
+  font-weight: bold;
+}
+
+.missing-skill {
+  padding: 10px 16px;
+  border-radius: 20px;
+  background: #fff4e5;
+  color: #b45309;
+  font-weight: bold;
+}
+
+
+/* Suggestions */
+
+.suggestions-box {
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.suggestions-box h3 {
+  color: #172554;
+  margin-bottom: 20px;
+}
+
+.suggestions-box ul {
+  padding-left: 25px;
+}
+
+.suggestions-box li {
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .resume-container h1 {
+    font-size: 30px;
+  }
+
+  .upload-box,
+  .analysis-box,
+  .match-box,
+  .suggestions-box {
+    padding: 20px;
+  }
+
+}
